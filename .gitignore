@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Isaac/Sim artifacts (tune as needed)
+logs/
+runs/
+outputs/
+
+# Results (keep small summaries, ignore big binaries)
+results/*
+!results/.keep
+
+# OS
+.DS_Store
